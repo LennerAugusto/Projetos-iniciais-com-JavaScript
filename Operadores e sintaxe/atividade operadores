@@ -1,0 +1,24 @@
+// Atividade de sintaxe e operadores em JS
+
+var a, b;
+
+a = prompt('Digite um número');
+b = prompt('Digite o segundo número');
+
+if(a == b){
+    console.log("Os números são iguais");
+}else{
+    console.log("Os números não são iguais");
+}
+
+function soma(a, b){
+    var soma = a + b;
+    if(soma >= 10 && soma<= 20){
+        console.log(soma);
+        console.log("que é maior que 10 e menor que 20");
+    }else{
+        console.log( soma);
+    }
+}
+
+soma();
